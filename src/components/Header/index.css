@@ -1,0 +1,35 @@
+.website-logo {
+    height: 50px;
+    width: 50px;
+    background-color: #26C6DA;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+
+    @media (width <= 576px) {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.website-logo-title {
+    @media (width <= 768px) {
+        font-size: 17px;
+    }
+    @media (width <= 340px) {
+        display: none;
+    }
+}
+
+.nav-items-container {
+    list-style-type: none;
+}
+
+.header-nav-item {
+    @media (width <= 576px) {
+        font-size: 15px;
+    }
+    @media (width <= 400px) {
+        font-size: 13px;
+    }
+}

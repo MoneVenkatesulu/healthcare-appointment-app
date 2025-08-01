@@ -1,0 +1,10 @@
+.lazy-loading-contianer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-link-element {
+  text-decoration: none;
+}

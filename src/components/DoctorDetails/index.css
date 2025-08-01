@@ -1,0 +1,16 @@
+.doctor-details-item {
+    width: 200px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+
+.doctor-details-item:hover {
+    border: 2px solid #0d6efd;
+    background-color: #fff;
+}
+
+.doctor-image {
+    border-radius: 50%;
+    width: 50%;
+    
+}

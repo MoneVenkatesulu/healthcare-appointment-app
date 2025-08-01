@@ -1,0 +1,37 @@
+.home-container {
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dmlk7cxkm/image/upload/v1754015850/Screenshot_2025-08-01_080459_d2kc1i.png");
+    background-size: cover;
+
+   
+}
+
+.home-content {
+    align-items: flex-start;
+    @media (width <= 900px) {
+        align-items: center;
+    }
+}
+
+.doctor-symbol {
+    width: 65%;
+    max-width: 300px;
+    border-radius: 50%;
+
+    @media (width >= 900px) {
+        display: none;
+    }
+}
+
+.home-text {
+    font-family: "Roboto";
+    @media (width <= 900px) {
+        text-align: center;
+    }
+}
+
+.home-text-tagline {
+    color: #f8f9fb;
+    font-size: 11px;
+    word-spacing: 1px;
+}

@@ -1,0 +1,13 @@
+.doctors-container {
+    height: 100vh;
+}
+
+.doctors-content {
+    background-color: #E0FEFA;
+    overflow: auto;
+}
+
+.doctors-list {
+    list-style-type: none;
+    padding: 0px;
+}
