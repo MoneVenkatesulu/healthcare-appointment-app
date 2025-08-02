@@ -7,6 +7,32 @@
     overflow: auto;
 }
 
+.searchbar-container {
+    width: 100%;
+    max-width: 320px;
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+
+.searchbar {
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-icon {
+    width: 10%;
+    
+}
+.specializations-bar {
+    outline: none;
+    border: 1px solid #808080;
+    padding: 3px;
+}
+
+
 .doctors-list {
     list-style-type: none;
     padding: 0px;

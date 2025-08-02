@@ -33,3 +33,12 @@
         font-size: 13px;
     }
 }
+
+ .header-nav-item-link {
+    font-weight: 500;
+    color: #828384;
+ }
+ .header-nav-item-link:hover {
+    font-weight: bold;
+    color: #0d6efd;
+}

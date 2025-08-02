@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState, useEffect} from 'react'
-import {v4 as uuidv4} from 'uuid';
 
 import './App.css';
 
@@ -10,11 +9,12 @@ import HealthcareAppointmentContext from './context/HealthcareAppointmentContext
 
 const Home = lazy(() => import('./components/Home'));
 const DoctorsPage = lazy(() => import('./components/DoctorsPage'));
+const DoctorProfile = lazy(() => import('./components/DoctorProfile'));
 
 
 const doctorsData = [
   {
-    id: uuidv4(),
+    id: 1,
     name: "Dr. John Doe",
     specialization: "Cardiologist",
     status: "Available Today",
@@ -26,7 +26,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 2,
     name: "Dr. Jane Smith",
     specialization: "Dermatologist",
     status: "Fully Booked",
@@ -35,7 +35,7 @@ const doctorsData = [
     availability: []
   },
   {
-    id: uuidv4(),
+    id: 3,
     name: "Dr. Ayesha Khan",
     specialization: "Pediatrician",
     status: "Available Tomorrow",
@@ -47,7 +47,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 4,
     name: "Dr. Rahul Mehta",
     specialization: "Orthopedic Surgeon",
     status: "Available Today",
@@ -59,7 +59,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 5,
     name: "Dr. Emily Watson",
     specialization: "Gynecologist",
     status: "On Leave",
@@ -68,7 +68,7 @@ const doctorsData = [
     availability: []
   },
   {
-    id: uuidv4(),
+    id: 6,
     name: "Dr. Arjun Patel",
     specialization: "Neurologist",
     status: "Available Today",
@@ -80,7 +80,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 7,
     name: "Dr. Priya Verma",
     specialization: "Psychiatrist",
     status: "Available Next Week",
@@ -92,7 +92,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 8,
     name: "Dr. Manish Roy",
     specialization: "ENT Specialist",
     status: "Available Today",
@@ -104,7 +104,7 @@ const doctorsData = [
     ]
   },
   {
-    id: uuidv4(),
+    id: 9,
     name: "Dr. Sara Fernandes",
     specialization: "Ophthalmologist",
     status: "Fully Booked",
@@ -113,7 +113,7 @@ const doctorsData = [
     availability: []
   },
   {
-    id: uuidv4(),
+    id: 10,
     name: "Dr. Kunal Desai",
     specialization: "General Physician",
     status: "Available Today",
@@ -144,6 +144,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/doctors" element={<DoctorsPage />} />
+            <Route path="/doctor/:id" element={<DoctorProfile />} />
           </Routes>
         </Suspense>
       </Router>

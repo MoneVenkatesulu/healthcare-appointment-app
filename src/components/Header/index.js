@@ -14,13 +14,13 @@ export default function Header() {
                 </Link>
                 <ul className="nav-items-container d-flex gap-2 gap-md-3 gap-lg-4 m-0 p-0">
                     <li className="header-nav-item">
-                        <Link to="/" className="react-link-element text-secondary fw-semibold">HOME</Link>
+                        <Link to="/" className="react-link-element header-nav-item-link">HOME</Link>
                     </li>
                     <li className="header-nav-item">
-                        <Link to="/doctors" className="react-link-element text-secondary fw-semibold">DOCTORS</Link>
+                        <Link to="/doctors" className="react-link-element header-nav-item-link">DOCTORS</Link>
                     </li>
                     <li className="header-nav-item">
-                        <Link to="" className="react-link-element text-secondary fw-semibold">ABOUT</Link>
+                        <Link to="" className="react-link-element header-nav-item-link">ABOUT</Link>
                     </li>
                 </ul>
             </nav>
