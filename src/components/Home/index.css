@@ -1,26 +1,15 @@
 .home-container {
-    height: 100vh;
-    background-image: url("https://res.cloudinary.com/dmlk7cxkm/image/upload/v1754015850/Screenshot_2025-08-01_080459_d2kc1i.png");
+    background-image: url("https://res.cloudinary.com/dmlk7cxkm/image/upload/v1754123144/Screenshot_2025-08-02_133744_ogmcmf.png");
     background-size: cover;
 
-   
+    @media (width > 768px) {
+    } 
 }
 
-.home-content {
-    align-items: flex-start;
-    @media (width <= 900px) {
-        align-items: center;
-    }
-}
-
-.doctor-symbol {
+.doctor-img {
     width: 65%;
     max-width: 300px;
     border-radius: 50%;
-
-    @media (width >= 900px) {
-        display: none;
-    }
 }
 
 .home-text {

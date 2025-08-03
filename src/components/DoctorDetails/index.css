@@ -9,8 +9,11 @@
     background-color: #fff;
 }
 
-.doctor-image {
+.doctor-details-item-link {
+    text-decoration: none;
+}
+
+.doctor-details-image {
     border-radius: 50%;
     width: 50%;
-    
 }

@@ -1,36 +1,29 @@
-.doctors-container {
-    height: 100vh;
-}
-
 .doctors-content {
-    background-color: #E0FEFA;
+    background-color: #d3f3ff;
     overflow: auto;
 }
 
-.searchbar-container {
+.searchbar {
     width: 100%;
     max-width: 320px;
     background-color: #ffffff;
     border: 1px solid #808080;
+    outline: none;
     padding: 3px;
 }
 
-.searchbar {
-    width: 90%;
-    border: none;
-    outline: none;
-    background-color: transparent;
-}
-
-.search-icon {
-    width: 10%;
-    
-}
 .specializations-bar {
     outline: none;
     border: 1px solid #808080;
     padding: 3px;
 }
+
+.filters-clear-button {
+    outline: none;
+    border: 1px solid #808080;
+    background-color: #ffffff;
+}
+
 
 
 .doctors-list {

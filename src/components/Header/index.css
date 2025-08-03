@@ -1,4 +1,8 @@
 .website-logo {
+    text-decoration: none;
+}
+
+.website-icon {
     height: 50px;
     width: 50px;
     background-color: #26C6DA;
@@ -13,6 +17,8 @@
 }
 
 .website-logo-title {
+    font-family: "Arial";
+    font-weight: bold;
     @media (width <= 768px) {
         font-size: 17px;
     }
@@ -34,11 +40,6 @@
     }
 }
 
- .header-nav-item-link {
-    font-weight: 500;
-    color: #828384;
- }
  .header-nav-item-link:hover {
-    font-weight: bold;
     color: #0d6efd;
 }

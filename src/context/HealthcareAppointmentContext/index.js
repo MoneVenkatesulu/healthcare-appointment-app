@@ -2,7 +2,7 @@ import React from "react";
 
 const HealthcareAppointmentContext = React.createContext({
     doctorsList: [], 
-    updateDoctorsList: () => {}
+    updateDoctorsList: () => {}, 
 });
 
 export default HealthcareAppointmentContext;

@@ -1,0 +1,22 @@
+.about-container {
+    background-color: #d3f3ff;
+    overflow: auto;
+}
+
+.about-img{
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.social-networks-container {
+    list-style-type: none;
+}
+
+.social-networks-icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.website-url {
+    cursor: pointer;
+}
