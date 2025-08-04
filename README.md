@@ -1,5 +1,23 @@
 In this project, a responsive website was built for booking healthcare appointments through the NirogGyan platform.
 
+### Refer to the video below:
+
+<br/>
+<div style="text-align: center;">
+  <video 
+  style="max-width:70%; box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12); outline:none;" 
+  loop 
+  autoplay 
+  controls 
+  muted 
+  playsinline
+>
+  <source src="https://res.cloudinary.com/dmlk7cxkm/video/upload/v1754275533/Screen_Recording_-_Made_with_RecordCast_lxxy1h.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+</div>
+<br/>
+
 ### Design Files
 
 <details>
