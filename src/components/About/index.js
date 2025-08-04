@@ -22,7 +22,7 @@ export default function About(){
                     <h5>Our Mission</h5>
                     <p>Our mission is to bridge the gap between patients and quality healthcare.</p>
                 </section>
-                <div className=" text-center text-md-start pt-2 pt-md-3">
+                <div className="text-center text-md-start pt-2 pt-md-3">
                     <h4 className='fw-bold'>Contact Us?</h4>
                     <ul className="social-networks-container d-flex justify-content-center justify-content-md-start gap-2 gap-3 p-0 pt-2">
                         <li><FaTwitterSquare className="social-networks-icons text-info" /></li>
