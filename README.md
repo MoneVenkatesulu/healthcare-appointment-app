@@ -125,6 +125,8 @@ The app have the following functionalities
   - Mobile-first design using Bootstrap
   - Layout adapts to all screen sizes (mobile, tablet, desktop)
 
+</details>
+
 ### Important Note
 
 <details>
